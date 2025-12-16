@@ -1,0 +1,2 @@
+rootProject.name = 'business-app'
+include 'authservice', 'cartservice', 'inventoryservice', 'orderservice', 'paymentservice', 'productservice'

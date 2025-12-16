@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="17" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="business-app.authservice" options="-parameters" />
+      <module name="business-app.authservice.main" options="-parameters" />
+      <module name="business-app.authservice.test" options="-parameters" />
+      <module name="business-app.cartservice" options="-parameters" />
+      <module name="business-app.cartservice.main" options="-parameters" />
+      <module name="business-app.cartservice.test" options="-parameters" />
+      <module name="business-app.inventoryservice" options="-parameters" />
+      <module name="business-app.inventoryservice.main" options="-parameters" />
+      <module name="business-app.inventoryservice.test" options="-parameters" />
+      <module name="business-app.orderservice" options="-parameters" />
+      <module name="business-app.orderservice.main" options="-parameters" />
+      <module name="business-app.orderservice.test" options="-parameters" />
+      <module name="business-app.paymentservice" options="-parameters" />
+      <module name="business-app.paymentservice.main" options="-parameters" />
+      <module name="business-app.paymentservice.test" options="-parameters" />
+      <module name="business-app.productservice" options="-parameters" />
+      <module name="business-app.productservice.main" options="-parameters" />
+      <module name="business-app.productservice.test" options="-parameters" />
+    </option>
+  </component>
+</project>
