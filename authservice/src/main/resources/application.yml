@@ -1,0 +1,34 @@
+server:
+  port: 8081   # Auth service runs on its own port
+
+spring:
+  application:
+    name: auth-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/business_auth_db?useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update   # change to validate in production
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+
+# JWT configuration
+jwt:
+  secret: z1RkYz0QxY8FJr4kU2Gv9nJZ8yTn4P6LkQxE7sH9aA=
+  expiration: 86400000   # 1 day in milliseconds
+
+logging:
+  level:
+    org.springframework.security: DEBUG

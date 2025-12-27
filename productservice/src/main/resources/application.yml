@@ -1,0 +1,24 @@
+server:
+  port: 8082   # Product Service runs on its own port
+
+spring:
+  application:
+    name: product-service
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: business_product_db
+      auto-index-creation: true
+
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+logging:
+  level:
+    root: INFO
+    com.yourcompany.productservice: DEBUG
+
+#
